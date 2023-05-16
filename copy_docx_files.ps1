@@ -36,3 +36,5 @@ foreach ($drive in $drives) {
         }
     }
 }
+
+exit
